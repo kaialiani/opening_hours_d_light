@@ -44,7 +44,7 @@ p {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   color: #747474;
-  letter-spacing: 0.6px;
+  letter-spacing: 0px;
 }
 
 h1 {
@@ -66,6 +66,12 @@ h2 {
 #opening-hours {
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+#opening-hours div {
+  display: flex;
+  gap: 0.6rem;
   align-items: center;
 }
 
