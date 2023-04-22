@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+
+:root {
+  line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+  color: #8e8e8e;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+img {
+  width: 200px;
+}
+
+a {
+  font-weight: 500;
+  color: #747474;
+  text-decoration: inherit;
+  font-size: 0.9rem;
+}
+a:hover {
+  color: #565656;
+}
+
+body {
+  margin: 0;
+  background-color: #f2f2f2;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+p {
+  margin-block-start: 0.2rem;
+  margin-block-end: 0.2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #747474;
+  letter-spacing: 0.6px;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2em;
+  line-height: 1.1;
+  font-weight: 500;
+  color: #707070;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  line-height: 1.1;
+  font-weight: 500;
+  color: #747474;
+}
+
+#opening-hours {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact-links {
+  margin-top: 4vh;
+  display: flex;
+  align-items: center;
+
+  gap: 2rem;
+}
+
+#phone a {
+  display: flex;
+  gap: 1rem;
+}
+
+#location a {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  text-align: center;
+}
+
+#phone-location {
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vh;
+}
